@@ -15,4 +15,6 @@ gem 'insales_api', github: "insales/insales_api", branch: "master"
 gem 'sqlite3'
 gem 'actionpack-xml_parser'
 
-
+group :production do
+  gem: 'pg'
+end
